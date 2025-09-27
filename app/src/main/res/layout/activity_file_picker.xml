@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 路径显示栏 -->
+    <TextView
+        android:id="@+id/current_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="#F5F5F5"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textStyle="bold" />
+
+    <!-- 系统文件选择器按钮 -->
+    <Button
+        android:id="@+id/btn_system_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="使用系统文件选择器"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"/>
+
+    <!-- 文件列表 -->
+    <ListView
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:drawable/divider_horizontal_dark"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

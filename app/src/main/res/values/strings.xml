@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PhiChart Studio</string>
+
+    <string name="spinner_title">请选择选项</string>
+    <string name="re_phiedit_cmdysj">【声明】\n设计原型 Re:PhiEdit @cmdysj\n此app仅供临时无设备条件时使用，功能依赖于RPE，请勿用于替代RPE写谱。</string>
+    <string-array name="spinner_items">
+        <item>选项1</item>
+        <item>选项2</item>
+        <item>选项3</item>
+        <item>选项4</item>
+    </string-array>
+</resources>
+
